@@ -1,0 +1,6 @@
+default:
+    server:
+        port: SERVER_PORT
+        api_key: SERVER_API_KEY
+    wkhtmltopdf:
+        bin: WKHTMLTOPDF_BIN
