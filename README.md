@@ -10,7 +10,7 @@ wkhtmltopdf:
     links:
         - php
     environment:
-        SERVER_PORT 80
-        SERVER_API_KEY dummy
-        WKHTMLTOPDF_BIN "/usr/local/bin/wkhtmltopdf"
+        SERVER_PORT: 80
+        SERVER_API_KEY: dummy
+        WKHTMLTOPDF_BIN: "/usr/local/bin/wkhtmltopdf"
 ```
