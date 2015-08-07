@@ -6,7 +6,7 @@ Add the following to your docker-compose.yml file:
 
 ```YAML
 wkhtmltopdf:
-    image: yappabe/wkhtmltopdf
+    image: yappabe/wkhtmltopdf-aas
     links:
         - php
     environment:
